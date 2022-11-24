@@ -1,0 +1,28 @@
+#!name=qitaVip
+#!desc=其他去广告  更新：2022-11-24 08:23:27
+#!system=ios
+
+[Script]
+趣听音乐 = type=http-response,pattern=^https?:\/\/api\.bspapp\.com\/client,requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/qtmusic.js
+
+百度文库 = type=http-response,pattern=^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo,requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/baidulibrary.js
+
+黄油相机 = type=http-response,pattern=^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$),requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/bybutter.js
+
+ScannerPro = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/(receipts|subscribers).*,requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/scannerpro.js
+
+百度云 = type=http-response,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/bdcloud.js
+
+作业帮1 = type=http-response,pattern=https://mall.zuoyebang.com/mall/goods/audio/voice/list?audioId=\d+,requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/zyb.js
+
+作业帮2 = type=http-response,pattern=https://apivip.zybang.com/vipols/vip/viphomev1?.+,requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/zyb.js
+
+美颜相机 = type=http-response,pattern=https://api.meiyan.com/iap/verify.json,requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/myxj.js
+
+傲軟摳圖 = type=http-response,pattern=https?:\/\/.*\.aoscdn\.com\/base\/vip\/client\/authorizations$,requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/apowersoft.js
+
+Ulike&轻颜相机&vaporcam = type=http-response,pattern=https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info),requires-body=1,max-size=0,script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Crack/commerce.js
+
+
+[MITM]
+hostname = %APPEND% api.bspapp.com, appwk.baidu.com, api4.bybutter.com, api.revenuecat.com, pan.baidu.com, mall.zuoyebang.com, apivip.zybang.com, api.meiyan.com, *.aoscdn.com, commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com
